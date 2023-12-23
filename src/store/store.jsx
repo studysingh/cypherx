@@ -308,7 +308,10 @@ const GroupAndOrderProvider = ({ children }) => {
         <div className="userIcon">
           <button
             type="button"
-            style={{ backgroundColor: `${userNameColor}`, fontWeight: "700" }}
+            style={{
+              backgroundColor: `${userNameColor}`,
+              fontWeight: "700",
+            }}
             className={`userIconInsider btn btn-primary position-relative`}
           >
             {shortName}
