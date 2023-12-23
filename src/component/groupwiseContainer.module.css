@@ -1,0 +1,26 @@
+.groupWiseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 10px;
+}
+@media screen and (min-width: 400px) {
+  .groupWiseContainer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .groupWiseContainer {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .groupWiseContainer {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .groupWiseContainer {
+    width: 20%;
+  }
+}

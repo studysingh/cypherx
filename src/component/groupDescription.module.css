@@ -1,0 +1,43 @@
+.descriptionContainer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  align-items: center;
+  height: 8vh;
+  padding: 0 0.4rem;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+.left {
+  display: flex;
+  /* min-width: 60%; */
+  justify-content: left;
+  align-items: center;
+}
+.left span {
+  padding: 0rem 0.2rem;
+}
+.left div {
+  padding: 0rem 0.25rem;
+}
+
+.right {
+  display: flex;
+}
+.right div .iconContainer {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.status {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #373737;
+}
+.cardCt {
+  color: grey;
+}

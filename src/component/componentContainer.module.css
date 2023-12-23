@@ -1,0 +1,13 @@
+main {
+  background-color: #f4f5f8;
+  width: 100%;
+  height: auto;
+}
+.componentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 92vh;
+  box-sizing: border-box;
+}
